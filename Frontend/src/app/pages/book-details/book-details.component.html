@@ -1,0 +1,18 @@
+<div class="wrapper">
+  <a mat-button routerLink="/overview">
+    <mat-icon>keyboard_arrow_left</mat-icon>
+    Back to books
+  </a>
+  <div class="book">
+    <img [src]="book?.image" class="book__image" alt="Book image">
+    <div class="book__info">
+      <h2 class="book__header">{{book?.title}}</h2>
+      <p>{{book?.subtitle}}</p>
+      <div class="book__buy">
+        <button mat-stroked-button (click)="addToCart(book)">Buy {{book?.price}}</button>
+        <p class="book__in-cart">
+          In cart: {{getCartQuantity(book)}}
+        </p>
+      </div>
+  </div>
+</div>

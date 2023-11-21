@@ -1,0 +1,14 @@
+.wrapper {
+  box-sizing: border-box;
+  margin: 15vh auto;
+  width: 500px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  h1 {
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+mat-form-field {
+  width: 100%;
+}
