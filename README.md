@@ -1,1 +1,1 @@
-# angular_auth
+# Bookstore with authorization
